@@ -66,7 +66,7 @@ var (
 )
 
 func main() {
-	list := []downData{downData05}
+	list := []downData{downData01, downData02, downData03, downData04, downData05}
 	for _, value := range list {
 
 		for i := value.startId; i <= value.endId; i += value.rule {
